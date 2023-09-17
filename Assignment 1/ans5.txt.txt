@@ -1,0 +1,11 @@
+Ans 5.
+The DOCTYPE declaration in HTML stands for "Document Type Declaration." It is an essential declaration at the beginning of an HTML document that informs web browsers and validators about the version of HTML being used and helps them interpret the document correctly.
+The DOCTYPE declaration serves several purposes:
+Version Information: It specifies which version of HTML (or XHTML) the document adheres to. Different versions of HTML have different rules and standards, so the DOCTYPE declaration ensures that the browser knows how to render the content.
+Quirks Mode vs. Standards Mode: The presence of a valid DOCTYPE declaration helps browsers determine whether to render the page in "quirks mode" or "standards mode." Standards mode is the preferred mode because it follows the modern web standards, while quirks mode emulates the rendering behavior of older browsers.
+Validation: It allows validators to check the document against the appropriate HTML standard to identify errors and ensure compliance with best practices.
+Here's an example of a DOCTYPE declaration for HTML5, which is the current version of HTML:
+<!DOCTYPE html>>
+
+In this case, <!DOCTYPE html> indicates that the document follows the HTML5 standard. HTML5 is more permissive and forgiving of minor errors, making it easier to write and maintain web pages while still adhering to modern web standards.
+

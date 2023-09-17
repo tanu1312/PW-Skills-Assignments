@@ -1,0 +1,14 @@
+Ans2.
+Comments in HTML serve as a way to include notes or explanations within the code that are not visible to the website's visitors. They are primarily intended for developers and other individuals who may need to understand or modify the code. Comments are ignored by web browsers and do not affect the rendering of the webpage.
+The primary purposes of comments in HTML are:
+Documentation: Comments can be used to provide documentation and explanations for the code, making it easier for other developers (including yourself) to understand the structure and purpose of the HTML document.
+
+
+Debugging: Comments can help identify and document issues or areas of interest within the code, making it easier to debug and maintain the webpage.
+
+
+Temporary Code Removal: You can comment out sections of code that you want to temporarily exclude from the webpage without deleting them entirely. This is useful for testing or making quick changes.
+In HTML, you can create both single-line and multi-line comments using the <!-- and --> tags. Here's how you can use both types of comments:
+Single-line comment: Single-line comments are used for adding brief comments or notes on a single line of code. They start with <!-- and end with -->. Everything between these tags is treated as a comment and is not displayed on the webpage.
+<!-- This is a single-line comment
+Multi-line comment: Multi-line comments are used when you need to add comments that span multiple lines. They also start with <!-- and end with -->, but you can include multiple lines of text between them.

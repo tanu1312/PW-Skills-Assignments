@@ -1,0 +1,18 @@
+Ans4.
+Certainly! Here's a short note on HTML tags and elements, HTML Tags and Elements:
+HTML Tags: HTML (Hypertext Markup Language) tags are the building blocks of a web page. They are used to structure and format the content of a webpage. HTML tags are enclosed in angle brackets < > and usually come in pairs - an opening tag and a closing tag. The opening tag specifies the beginning of an element, and the closing tag indicates the end of that element.
+HTML Elements: HTML elements are formed by combining HTML tags, content, and attributes. An HTML element consists of the opening tag, the content, and the closing tag. Elements define the structure and semantics of a webpage. Elements can be nested inside other elements.
+
+
+Example
+<p>This is a <strong>bold</strong> example.</p>>
+
+
+In the above example:
+<p> is the opening tag for a paragraph element.
+</p> is the closing tag for the same paragraph element.
+This is a is the content of the paragraph.
+<strong> is the opening tag for a strong element, which is used to make text bold.
+bold is the content of the strong element.
+</strong> is the closing tag for the strong element.
+Together, these tags and content create a paragraph with the word "bold" displayed in bold text. HTML elements are the fundamental components that structure and format content on a webpage.

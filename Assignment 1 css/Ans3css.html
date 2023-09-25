@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styled Form</title>
+    <style>
+        /* Define a custom color palette */
+        :root {
+            --primary-color: #3498db;
+            --secondary-color: #e74c3c;
+            --background-color: #f2f2f2;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: var(--background-color);
+        }
+
+        /* Style the form container */
+        .form-container {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+            width: 300px;
+            margin: 0 auto;
+            opacity: 0.9; /* Apply opacity to the form container */
+        }
+
+        /* Style form elements */
+        .form-container input[type="text"],
+        .form-container input[type="email"],
+        .form-container select {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .form-container button {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        /* Style the form section with opacity */
+        .opacity-section {
+            opacity: 0.7;
+        }
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <h2>Styled Form</h2>
+        <form action="#" method="post">
+            <input type="text" placeholder="Name">
+            <input type="email" placeholder="Email">
+            <select>
+                <option value="Option 1">Option 1</option>
+                <option value="Option 2">Option 2</option>
+                <option value="Option 3">Option 3</option>
+            </select>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    
+    <!-- Section with opacity -->
+    <div class="form-container opacity-section">
+        <h2>Opacity Section</h2>
+        <p>This section has reduced opacity.</p>
+    </div>
+</body>
+</html>

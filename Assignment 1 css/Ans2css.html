@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styled Paragraphs</title>
+    <style>
+        /* Define CSS rules using class selectors (BEM naming) */
+        
+        /* Block-level styles */
+        .paragraph {
+            font-size: 16px;
+            margin-bottom: 20px;
+            padding: 10px;
+        }
+        
+        /* Element-level styles (inside the block) */
+        .paragraph__title {
+            font-weight: bold;
+        }
+        
+        /* Modifier-level styles (for variations of the block) */
+        .paragraph--highlighted {
+            background-color: yellow;
+        }
+
+        .paragraph--important {
+            color: red;
+        }
+
+        .paragraph--quote {
+            border-left: 2px solid #333;
+            padding-left: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="paragraph">
+        <h2 class="paragraph__title">Paragraph 1</h2>
+        <p>This is a regular paragraph with class <code>.paragraph</code>.</p>
+    </div>
+    
+    <div class="paragraph paragraph--highlighted">
+        <h2 class="paragraph__title">Paragraph 2</h2>
+        <p>This paragraph is highlighted with class <code>.paragraph--highlighted</code>.</p>
+    </div>
+
+    <div class="paragraph paragraph--important">
+        <h2 class="paragraph__title">Paragraph 3</h2>
+        <p>This paragraph is important with class <code>.paragraph--important</code>.</p>
+    </div>
+
+    <div class="paragraph paragraph--quote">
+        <h2 class="paragraph__title">Paragraph 4</h2>
+        <p>This is a quoted paragraph with class <code>.paragraph--quote</code>.</p>
+    </div>
+</body>
+</html>

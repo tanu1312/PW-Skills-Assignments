@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sign Up and Sign In</title>
+</head>
+<body>
+    <h1>Sign Up</h1>
+    <form action="signup.js" method="post">
+        First Name: <input type="text" name="first_name" required><br>
+        Last Name: <input type="text" name="last_name" required><br>
+        Email Address: <input type="email" name="email" required><br>
+        Password: <input type="password" name="password" required minlength="8"><br>
+        Confirm Password: <input type="password" name="confirm_password" required><br>
+        Age: <input type="number" name="age" required><br>
+        Gender:
+        <input type="radio" name="gender" value="male"> Male
+        <input type="radio" name="gender" value="female"> Female
+        <input type="radio" name="gender" value="other"> Other<br>
+        <input type="checkbox" name="terms" required> I agree to the Terms and Conditions<br>
+        <input type="submit" value="Sign Up">
+    </form>
+
+    <h1>Sign In</h1>
+    <form action="signin.js" method="post">
+        Email Address: <input type="email" name="email" required><br>
+        Password: <input type="password" name="password" required><br>
+        <input type="submit" value="Sign In">
+    </form>
+</body>
+</html>

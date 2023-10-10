@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Position Boxes</title>
+    <style>
+        body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.box {
+    width: 50px;
+    height: 50px;
+    background-color: #3498db;
+    position: relative;
+
+}
+
+#boxA {
+    top: 200px;
+    left: 200px;
+    position: fixed;
+}
+
+ #boxB {
+    top: -30px;
+    left: -30px;
+  
+}
+
+ #boxC {
+    
+    top: -80px;
+   left: 30px;}
+
+
+#boxD {
+   
+   
+    top: -70px;
+    right: 30px;
+    
+   
+}
+
+
+ #boxE {
+    top: -120px;
+    right: -30px;
+
+}
+    </style>
+</head>
+<body>
+    <div class="box" id="boxA">
+        <div class="box" id="boxB"></div>
+        <div class="box" id="boxC"></div>
+        <div class="box" id="boxD"></div>
+        <div class="box" id="boxE"></div>
+    </div>
+   
+</body>
+</html>

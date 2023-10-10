@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    .box {
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        color: yellow;
+    }
+    
+    .box1 {
+        background-color: red;
+        left: 50px;
+        top: 50px;
+        z-index: 1;
+    }
+    
+    .box2 {
+        background-color: blue;
+        left: 75px;
+        top: 75px;
+        z-index: 2;
+    }
+    
+    .box3 {
+        background-color: green;
+        left: 100px;
+        top: 100px;
+        z-index: 3;
+    }
+</style>
+<html>
+<body>
+    <div class="box box1">Box 1</div>
+    <div class="box box2">Box 2</div>
+    <div class="box box3">Box 3</div>
+</body>
+</html>
+<!-- 
+In this example, we have three boxes with different z-index values. Here's what happens:
+
+box1 has a z-index of 1 and is positioned at (50px, 50px).
+box2 has a z-index of 2 and is positioned at (75px, 75px).
+box3 has a z-index of 3 and is positioned at (100px, 100px).
+As a result of the z-index values, box3 will be displayed on top of both box1 and box2, box2 will be displayed on top of box1, and box1 will be at the bottom of the stacking order.
+
+You can adjust the z-index values to change the stacking order of elements and control how they overlap on the page. Elements with higher z-index values will be displayed on top of elements with lower z-index values. -->

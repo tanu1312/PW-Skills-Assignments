@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .gallery {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 250px);
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .photo-1 {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+ .photo-2 {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+
+    .photo-3 {
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+
+    .photo-4 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end: 4;
+    }
+
+    .photo-5 {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 3;
+        grid-row-end: 4;
+    }
+
+    .photo-6 {
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: 2;
+        grid-row-end: 4;
+    }
+
+    img {
+        height: 100%;
+        width: 100%;
+        border-radius: 10px;
+    }
+
+
+    .Image :hover {
+        transform: scale(1.05);
+        transition: transform 0.2s;
+    }
+</style>
+
+<body>
+
+    <div class="gallery">
+        <div class="photo-1"><img src="https://thestateofwomen.com/wp-content/uploads/2019/08/unnamed-20-810x590.jpg"
+                alt="Image 1"></div>
+        <div class="photo-2"><img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJLcEfSxs-m9r6GNZYa_g_W9fH_m_l_5z6TwLNNqha9sU28RLGfXRPLhApXjOIlyCvPl4&usqp=CAU"
+                alt="Image 3"></div>
+        <div class="photo-3"><img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLtSN96-nXiGv-kr_ET0OjAbEjPuQ3R-aECSBrDuAAx1bmsLlvTeaROjUJ7apyussVses&usqp=CAU"
+                alt="Image 4"></div>
+        <div class="photo-4"><img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHWKLyC_8MrycoGW2V6C8vBctVsj7G6BwrN_mU9TdkzaAQ7hnx2WbfnROOL82-Japnq8Y&usqp=CAU"
+                alt="Image 5"></div>
+
+        <div class="photo-5"><img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbxEeLN5B8FOirGjsDqVZQyRDfCKxFNi1bm7ldS3ZLTr_3o1627PHWL0GjXEEpnwnTjik&usqp=CAU"
+                alt="Image 7"></div>
+        <div class="photo-6"><img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLtSN96-nXiGv-kr_ET0OjAbEjPuQ3R-aECSBrDuAAx1bmsLlvTeaROjUJ7apyussVses&usqp=CAU"
+                alt="Image 8"></div>
+
+    </div>
+
+
+</body>
+
+</html>

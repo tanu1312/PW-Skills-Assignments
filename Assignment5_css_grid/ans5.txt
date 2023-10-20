@@ -1,0 +1,49 @@
+justify-items and justify-self are CSS properties used in conjunction with CSS Grid to control the horizontal alignment of grid items within a grid container. They determine how grid items are aligned along the inline axis (horizontal, typically left-to-right) within their grid cells. Let's explore the differences between them with code examples.
+
+justify-items:
+justify-items is applied to the grid container and affects the alignment of all grid items within the container.
+css
+Copy code
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center; /* Horizontally centers all grid items */
+}
+
+.grid-item {
+  background-color: lightblue;
+}
+html
+Copy code
+<div class="grid-container">
+  <div class="grid-item">Item 1</div>
+  <div class="grid-item">Item 2</div>
+</div>
+In this example, justify-items: center; aligns all grid items horizontally to the center within their respective grid cells.
+
+justify-self:
+justify-self is applied to individual grid items and allows you to override the alignment of a specific grid item.
+css
+Copy code
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.grid-item {
+  background-color: lightblue;
+  justify-self: end; /* Aligns this specific grid item to the end of its cell */
+}
+html
+Copy code
+<div class="grid-container">
+  <div class="grid-item">Item 1</div>
+  <div class="grid-item">Item 2</div>
+</div>
+In this example, justify-self: end; aligns only the second grid item to the end of its cell, while the first item retains the default alignment (center) determined by justify-items.
+
+To summarize:
+
+justify-items sets the default horizontal alignment for all grid items within the grid container.
+justify-self allows you to override the default alignment for individual grid items.
+These properties are also applicable for the vertical alignment of grid items, but you would use align-items and align-self for that purpose.

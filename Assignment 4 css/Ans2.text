@@ -1,0 +1,48 @@
+1.justify-content:
+
+This property controls how items are aligned along the main axis (the primary direction in which the flex container expands). Common values include:
+flex-start: Items are aligned at the start of the container.
+flex-end: Items are aligned at the end of the container.
+center: Items are centered within the container.
+space-between: Items are evenly distributed with the first item at the start and the last item at the end.
+space-around: Items are evenly distributed with equal space around them.
+
+2.align-items:
+
+This property controls how items are aligned along the cross-axis (the perpendicular direction to the main axis). Common values include:
+flex-start: Items are aligned at the start of the cross-axis.
+flex-end: Items are aligned at the end of the cross-axis.
+center: Items are centered along the cross-axis.
+baseline: Items are aligned based on their baselines.
+stretch: Items are stretched to fill the container along the cross-axis.
+
+
+3.gap
+
+According to the last  update in September 2021, there is no native "gap" property for creating spacing between flex items in Flexbox layouts. However, the "gap" property is a feature of CSS Grid layouts that allows you to create gaps between grid items.
+
+If you specifically need to create gaps between flex items, you can use either margins or padding on the flex items or the flex container itself,
+
+
+
+4.flex-direction:
+
+This property determines the direction in which flex items are placed within the flex container. Common values include:
+row: Items are placed in a horizontal row (default).
+row-reverse: Items are placed in a horizontal row in reverse order.
+column: Items are placed in a vertical column.
+column-reverse: Items are placed in a vertical column in reverse order.
+
+5.flex-wrap:
+
+
+This property controls whether flex items should wrap onto a new line if they don't fit within the flex container. Common values include:
+nowrap: Items are not allowed to wrap (default).
+wrap: Items can wrap onto the next line if needed.
+wrap-reverse: Items can wrap onto the next line in reverse order if needed.
+
+These properties, along with others like flex-grow, flex-shrink, and flex-basis, provide fine-grained control over how flex items behave within a flex container. You can use these properties to create flexible and responsive layouts with ease.
+
+
+
+

@@ -1,0 +1,37 @@
+In JavaScript, operators are categorized based on the number of operands they act upon. Here's a differentiation between unary, binary, and ternary operators, along with examples for each:
+
+Unary Operators:
+
+Definition: Unary operators act on a single operand.
+Example:
+javascript code:
+let x = 5;
+let y = -x; // Unary minus operator
+let z = +x; // Unary plus operator
+Binary Operators:
+
+Definition: Binary operators act on two operands.
+Example:
+javascript code:
+let a = 5;
+let b = 3;
+let sum = a + b; // Addition operator
+let difference = a - b; // Subtraction operator
+let product = a * b; // Multiplication operator
+let quotient = a / b; // Division operator
+Ternary Operator (Conditional Operator):
+
+Definition: The ternary operator is a unique operator that takes three operands and is used as a shorthand for an if-else statement.
+
+Example:
+
+javascript
+Copy code
+let isEven = (x % 2 === 0) ? 'Even' : 'Odd';
+In this example, the condition (x % 2 === 0) is evaluated. If it's true, the value of the expression is 'Even', otherwise, it's 'Odd'. The syntax is condition ? expr1 : expr2, where condition is evaluated, and either expr1 or expr2 is returned based on the result.
+
+In summary:
+
+Unary operators: Act on a single operand.
+Binary operators: Act on two operands.
+Ternary operator: Acts on three operands and is used for conditional expressions.

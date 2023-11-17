@@ -1,0 +1,55 @@
+Purpose of Declaring Variables in JavaScript:
+
+Declaring variables in JavaScript is essential for storing and managing data in a program. Variables provide a way to name and reference values, making the code more readable, maintainable, and flexible. By using variables, you can store values, perform operations on them, and update the data as needed during the execution of a program.
+
+Declaring Variables with the 'let' Keyword:
+
+In JavaScript, you can declare variables using the 'let' keyword. The 'let' keyword was introduced in ECMAScript 6 (ES6) and is now the recommended way to declare variables, replacing 'var' in many cases. Here's how you declare a variable with 'let':
+
+javascript code:
+let variableName;
+
+
+Here, let is the keyword used to declare the variable, and variableName is the name you give to the variable. You can also assign an initial value to the variable during declaration:
+
+javascript code:
+let age = 25;
+
+
+
+In this example, the variable age is declared and assigned the initial value of 25. The 'let' keyword is followed by the variable name and, if needed, an assignment operator (=) and an initial value.
+
+Example:
+
+javascript code:
+// Declaring variables
+let firstName;
+let lastName = "Doe";
+let age = 30;
+
+// Displaying values
+console.log("First Name:", firstName);  // Output: undefined (since it's not initialized)
+console.log("Last Name:", lastName);    // Output: Doe
+console.log("Age:", age);               // Output: 30
+
+// 
+
+Modifying values
+firstName = "John";
+age = 31;
+
+// Displaying updated values
+console.log("First Name:", firstName);  // Output: John
+console.log("Age:", age);               // Output: 31
+
+
+
+
+In this example, three variables (firstName, lastName, and age) are declared using the 'let' keyword. They are then used to store and manipulate data within the program.
+
+Remember that variables declared with 'let' are block-scoped, meaning they are only accessible within the block (enclosed by curly braces) in which they are defined. This helps avoid unintended side effects and enhances code clarity.
+
+
+
+
+

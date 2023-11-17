@@ -1,0 +1,46 @@
+
+In JavaScript, operators are symbols that perform operations on operands. They can be categorized based on their functionality into several groups. Here are the main categories:
+
+Arithmetic Operators:
+
+These operators perform basic arithmetic operations.
+Addition: + Example: let result = 5 + 3;
+Subtraction: - Example: let result = 5 - 3;
+Multiplication: * Example: let result = 5 * 3;
+Division: / Example: let result = 5 / 3;
+Modulus: % Example: let remainder = 5 % 3;
+Comparison Operators:
+
+Used to compare values and return a Boolean result.
+Equal to: == or === Example: let isEqual = (5 === '5');
+Not equal to: != or !== Example: let isNotEqual = (5 !== '5');
+Greater than: > Example: let isGreater = (5 > 3);
+Less than: < Example: let isLess = (5 < 3);
+Greater than or equal to: >= Example: let isGreaterOrEqual = (5 >= 3);
+Less than or equal to: <= Example: let isLessOrEqual = (5 <= 3);
+Logical Operators:
+
+Used to combine or manipulate Boolean values.
+Logical AND: && Example: let andResult = (true && false);
+Logical OR: || Example: let orResult = (true || false);
+Logical NOT: ! Example: let notResult = !true;
+Assignment Operators:
+
+Used to assign values to variables.
+Assignment: = Example: let x = 5;
+Addition assignment: += Example: x += 3; (Equivalent to x = x + 3;)
+Subtraction assignment: -= Example: x -= 3; (Equivalent to x = x - 3;)
+Multiplication assignment: *= Example: x *= 3; (Equivalent to x = x * 3;)
+Division assignment: /= Example: x /= 3; (Equivalent to x = x / 3;)
+Unary Operators:
+
+Operators that act on a single operand.
+Unary plus: + Example: let positiveNumber = +5;
+Unary minus: - Example: let negativeNumber = -5;
+Increment: ++ Example: let incremented = x++;
+Decrement: -- Example: let decremented = x--;
+Ternary Operator (Conditional Operator):
+
+A shorthand way of writing an if-else statement.
+Ternary Operator: condition ? expr1 : expr2 Example: let result = (x > 0) ? 'positive' : 'negative';
+These categories cover the basic operators in JavaScript, providing a foundation for performing a wide range of operations in the language.

@@ -1,0 +1,20 @@
+Here's how you can use a ternary operator in JavaScript to check whether a person is eligible to vote based on their age:
+
+javascript code
+let age = parseInt(prompt("Enter your age:"));
+
+let message = age < 18 ? "You cannot vote" : "You can vote";
+
+console.log(message);
+In this example:
+
+We prompt the user to enter their age using prompt(), convert it to an integer using parseInt(), and store it in the variable age.
+We use a ternary operator to check the value of age:
+If age is less than 18, we assign the string "You cannot vote" to the variable message.
+If age is greater than or equal to 18, we assign the string "You can vote" to the variable message.
+Finally, we log the message to the console using console.log().
+
+
+
+
+

@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @tanu1312
 - 👀 I’m interested in ...coding 
-- 🌱 I’m currently learning ...website Development
+- 🌱 I’m currently learning ...website Development And Data AnalyticsM
 - 💞️ I’m looking to collaborate on ...
 - 📫 How to reach me ...bca13121997@gmail.com
 
